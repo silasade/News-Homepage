@@ -1,0 +1,713 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+  }
+body{
+    font-family:myFirstFont;
+}
+#menu{
+    visibility: hidden;
+}
+#first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 80%;
+    margin-left: 50px;
+}
+#second{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    gap: 10%;
+    visibility: visible;
+}
+.back{
+    width: 90%;
+    height: 400px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    color: hsl(233, 8%, 79%);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    
+}
+.main-first{
+    display: flex;
+    flex-direction: column;
+}
+.main-second{
+    display: flex;
+    flex-direction: row;
+}
+.main-second-inner{
+    display: flex;
+    flex-direction: column;
+}
+.boxe{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(240, 100%, 5%);
+    padding: 3%;
+    margin-right: 3%;
+    
+}
+.new{
+    font-size: 50px;
+    color: hsl(35, 77%, 62%);
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.last-inner{
+    display: flex;
+    flex-direction: row;
+}
+.last-image{
+    width: 50%;
+    
+    
+}
+h1{
+    padding: 20%;
+    margin-left: -15%;
+    margin-top: -15%;
+    margin-bottom: -15%;
+    font-size:  50px;
+    color: hsl(240, 100%, 5%);
+}
+button{
+    padding: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: hsl(36, 100%, 99%);
+    margin-left: 35%;
+    margin-top: -16%;
+    background-color:  hsl(5, 85%, 63%);
+    border-color: transparent;
+    cursor: pointer;
+}
+.yoo:hover, a:hover{
+    color:  hsl(5, 85%, 63%);
+}
+.h3{
+    cursor: pointer;
+}
+.yoo{
+    cursor: pointer;
+    color: hsl(240, 100%, 5%);
+}
+button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+.dive{
+    padding: 20%;
+    margin-left: 15%;
+    margin-top: -16%;
+    margin-bottom: -15%;
+}
+.in{
+    margin-left: -15%;
+    color: hsl(233, 8%, 79%);
+}
+ .h3:hover{
+    color: hsl(35, 77%, 62%);
+ }
+ @media(max-width:1499px){
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+ }
+}
+@media(max-width:1350px){
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+ }.dive{
+    padding: 10%;
+    margin-left: 15%;
+    margin-top: -5%;
+    margin-bottom: -15%;
+}
+button{
+    
+    margin-left: 25%;
+    margin-top: 10%;
+    
+}
+}
+@media(max-width:1250px){
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+ }
+ h1{
+    padding: 10%;
+    margin-left: -10%;
+    margin-top: -5%;
+    margin-bottom: -15%;
+    font-size:  50px;
+    color: hsl(240, 100%, 5%);
+}
+.dive{
+    
+    padding-right: 17%;
+    margin-left: 5%;
+    margin-top: -5%;
+    margin-bottom: -15%;
+    text-align: left;
+}
+button{
+    
+    margin-left: 15%;
+    margin-top: 10%;
+    
+}
+}
+@media(max-width:1150px){
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+ }
+ .last-image{
+    margin-top: 25%;
+    
+    
+}
+#second{
+    
+    margin-left: -15%;
+}
+}
+@media(max-width:1058px){
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+ }
+ h1{
+    padding: 5%;
+    margin-left: -6%;
+    margin-top: -1%;
+    margin-bottom: -15%;
+    font-size:  50px;
+    color: hsl(240, 100%, 5%);
+}
+.dive{
+    
+    padding-right: 17%;
+    margin-left: 5%;
+    margin-top: -5%;
+    margin-bottom: -15%;
+    text-align: left;
+}
+button{
+    
+    margin-left: 15%;
+    margin-top: 10%;
+    
+}
+#second{
+    
+    margin-left: 35%;
+}
+}
+@media(max-width:1029px){
+    #first{
+        justify-content: space-around;
+    }
+    .logo{
+        width: 70%;
+        margin-left: 50px;
+    }
+    #second{
+        display: flex;
+        flex-direction: row;
+        
+        gap: 5%;
+        margin-left: 35%;
+    }
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+ }
+ h1{
+    width: 120%;
+    margin-left: -3%;
+    margin-top: -1%;
+    margin-bottom: -15%;
+    font-size:  50px;
+    color: hsl(240, 100%, 5%);
+}
+.last-image{
+    margin-top: 45%;
+    
+    
+}
+}
+@media(max-width:1000px) {
+    #first{
+        justify-content: space-around;
+    }
+    .logo{
+        width: 70%;
+        margin-left: 50px;
+    }
+    #second{
+        display: flex;
+        flex-direction: row;
+        
+        gap: 5%;
+        margin-left: 45%;
+    }
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+ }
+ h1{
+    width: 120%;
+    margin-left: -3%;
+    margin-top: -1%;
+    margin-bottom: -15%;
+    font-size:  50px;
+    color: hsl(240, 100%, 5%);
+}
+.last-image{
+    margin-top: 45%;
+    
+    
+}
+}
+@media(max-width:930px){
+    
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+ }
+ h1{
+    width: 150%;
+    margin-left: -3%;
+    margin-top: -1%;
+    margin-bottom: -15%;
+    font-size:  40px;
+    color: hsl(240, 100%, 5%);
+    
+}
+.dive{
+    font-size: 15px;
+    padding-right: 10%;
+    margin-left: 5%;
+    margin-top: -5%;
+    margin-bottom: -15%;
+    text-align: left;
+
+}
+.back{
+    width: 90%;
+    height: 400px;
+}
+
+}
+@media(max-width:850px){
+    
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+ }
+ h1{
+    width: 150%;
+    margin-left: -3%;
+    margin-top: -1%;
+    margin-bottom: -15%;
+    font-size:  40px;
+    color: hsl(240, 100%, 5%);
+    
+}
+.dive{
+    font-size: 15px;
+    padding-right: 10%;
+    margin-left: 5%;
+    margin-top: -5%;
+    margin-bottom: -15%;
+    text-align: left;
+
+}
+.back{
+    width: 90%;
+    height: 400px;
+}
+
+}
+@media(max-width:800px){
+    .main{
+       
+        flex-direction: column;
+        margin-left: 50px;
+        
+    }
+    .main-second{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        width: 70%;
+        
+        margin-left: -3%;
+        margin-top: -1%;
+        margin-bottom: -15%;
+        font-size:  50px;
+        color: hsl(240, 100%, 5%);
+        
+    }
+    .dive{
+    
+        padding-right: 17%;
+        margin-left: -8%;
+        margin-top: 5%;
+        margin-bottom: -15%;
+        text-align: left;
+    }
+    button{
+    
+        margin-left: 2%;
+        margin-top: 7%;
+        
+    }
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        width: 77%;
+    }
+    .boxe{
+        margin-top: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .last{
+        
+        flex-direction: column;
+        margin-left: 70px;
+        
+    }
+    .last-inner{
+        gap: 4%;
+    }
+    .last-image{
+        margin-top: 10%;
+        
+        
+    }
+    .back{
+        width: 97%;
+        height: 400px;
+    }
+    .logo{
+        width: 90%;
+        margin-left: 40px;
+    }
+    #second{
+        display: flex;
+        flex-direction: row;
+        
+        gap: 5%;
+        margin-left: 40%;
+    }
+}
+@media(max-width:730px){
+    #first{
+        justify-content: space-around;
+    }
+    .logo{
+        width: 70%;
+        margin-left: 55px;
+    }
+    #second{
+        display: flex;
+        flex-direction: row;
+        
+        gap: 5%;
+        margin-left: 20%;
+    }
+}
+@media(max-width:630px){
+    #first{
+        justify-content: space-around;
+    }
+    .logo{
+        width: 90%;
+        margin-left: 50px;
+    }
+    #second{
+        display: flex;
+        flex-direction: row;
+        
+        gap: 2%;
+        margin-left: 19%;
+    }
+}
+@media(max-width:600px){
+    .logo{
+        width: 60px;
+        margin-left: -100px;
+    
+    }
+    
+    #second{
+        margin-top: 165%;
+        position: absolute;
+        flex-direction: column;
+        
+        gap: 51px;
+        margin-left: 89%;
+        margin-right: 59%;
+        background-color: hsl(36, 100%, 99%);
+        padding: 5%;
+        padding-right: 0%;
+        width: 60%;
+        visibility: hidden;
+        height: 100%;
+    }
+    #menu{
+        visibility: visible;
+        margin-left: 10%;
+        position: absolute;
+    }
+}
+@media(max-width:560px){
+    #second{
+        margin-top: 155%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+    .logo{
+        width: 60px;
+        margin-left: -80px;
+    
+    }
+}
+@media(max-width:530px){
+    #second{
+        margin-top: 165%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+}
+@media(max-width:500px){
+    .main{
+       
+        flex-direction: column;
+        margin-left: 50px;
+        
+    }
+    .main-second{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        width: 70%;
+        
+        margin-left: -3%;
+        margin-top: -1%;
+        margin-bottom: -15%;
+        font-size:  50px;
+        color: hsl(240, 100%, 5%);
+        
+    }
+    .dive{
+    
+        padding-right: 17%;
+        margin-left: -8%;
+        margin-top: 5%;
+        margin-bottom: -15%;
+        text-align: left;
+    }
+    button{
+    
+        margin-left: 2%;
+        margin-top: 7%;
+        
+    }
+    .boxe{
+        margin-top: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .last{
+        
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .last-image{
+        margin-top: 10%;
+        
+        
+    }
+    #second{
+        margin-top: 175%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+}
+@media (max-width:470px){
+    #second{
+        margin-top: 185%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+    .logo{
+        width: 60px;
+        margin-left: -60px;
+    
+    }
+}
+@media (max-width:440px){
+    #second{
+        margin-top: 195%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+    .logo{
+        width: 60px;
+        margin-left: -60px;
+    
+    }
+}
+@media (max-width:420px){
+    #second{
+        margin-top: 205%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+    .logo{
+        width: 60px;
+        margin-left: -40px;
+    
+    }
+}
+@media(max-width:400px){
+    
+    .last-image{
+        margin-top: 30%;
+        
+        
+    }
+    .back{
+        width: 110%;
+        height: 400px;
+    }
+    h1{
+        width: 80%;
+        
+        margin-left: -3%;
+        margin-top: -1%;
+        margin-bottom: -15%;
+        font-size:  50px;
+        color: hsl(240, 100%, 5%);
+        
+    }
+    .boxe{
+        width: 90%;
+    }
+    #second{
+        margin-top: 215%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+}
+@media (max-width:382px){
+    #second{
+        margin-top: 225%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+    .logo{
+        width: 60px;
+        margin-left: -40px;
+    
+    }
+}
+@media(max-width:359px){
+    
+    #second{
+        margin-top: 235%;
+        margin-right: 79%;
+        visibility: hidden;
+        
+    }
+    h1{
+        width: 90%;
+        
+        margin-left: -3%;
+        margin-top: -1%;
+        margin-bottom: -15%;
+        font-size:  50px;
+        color: hsl(240, 100%, 5%);
+        
+    }
+    .boxe{
+        width: 80%;
+    }
+    .back{
+        width: 95%;
+    }
+}
+@media (max-width:338px){
+    #second{
+        margin-top: 245%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+    .logo{
+        width: 60px;
+        margin-left: -20px;
+    
+    }
+}
+@media (max-width:328px){
+    #second{
+        margin-top: 265%;
+        margin-right: 69%;
+        visibility: hidden;
+        
+    }
+    .logo{
+        width: 60px;
+        margin-left: -20px;
+    
+    }
+}
