@@ -1,3 +1,3 @@
 # News-Homepage
-##Hosted
+## Hosted
  https://silasade.github.io/News-Homepage/
